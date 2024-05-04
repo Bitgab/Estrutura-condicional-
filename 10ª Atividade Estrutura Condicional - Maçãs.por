@@ -1,14 +1,14 @@
 programa {
   
   funcao inicio() {
-    //DeclaraÁ„o de vari·veis.
+    //Declara√ß√£o de vari√°veis.
 
     real quantidade, precoMaca, totalApagar
     //real arredonda
 
-    //Solicitando dados ao usu·rio.
+    //Solicitando dados ao usu√°rio.
 
-    escreva("Informe a quantidade de maÁ„: ")
+    escreva("Informe a quantidade de ma√ß√£: ")
     leia(quantidade)
 
 
@@ -26,8 +26,8 @@ programa {
 
     //Exibindo resultado. 
 
-    escreva("\nQuantidade de maÁ„s: ", quantidade)
-    escreva("\nPreÁo de maÁ„s: ", precoMaca)
+    escreva("\nQuantidade de ma√ß√£s: ", quantidade)
+    escreva("\nPre√ßo de ma√ß√£s: ", precoMaca)
     escreva("\nTotal a pagar: ", totalApagar)    
   }
 }
