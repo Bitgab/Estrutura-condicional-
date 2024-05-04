@@ -1,14 +1,14 @@
 programa {
   funcao inicio() {
-  //DeclaraÁ„o da vari·veis.
+  //Declara√ß√£o da vari√°veis.
 
   cadeia login, senha
   cadeia loginCadastrado = "Gabriel", senhaCadastrada = "123456"
 
 
-  //SolicitaÁ„o de dados para o usu·rio.
+  //Solicita√ß√£o de dados para o usu√°rio.
   
-  escreva("Ol·, por favor informe abaixo o nome do seu usu·rio e senha.\n")
+  escreva("Ol√°, por favor informe abaixo o nome do seu usu√°rio e senha.\n")
 
   escreva("Escreva seu Login: ")
   leia(login)
@@ -24,7 +24,7 @@ programa {
  se (login == loginCadastrado e senha == senhaCadastrada){
   escreva(login, ", Seja bem vindo!")
  } senao {
-  escreva("login ou senha inv·lido!")
+  escreva("login ou senha inv√°lido!")
  }
   }
 }
