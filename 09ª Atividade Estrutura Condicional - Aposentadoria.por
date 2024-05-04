@@ -1,13 +1,13 @@
 programa {
   funcao inicio() {
   
-  //Declaração de variáveis.
+  //DeclaraÃ§Ã£o de variÃ¡veis.
 
   real anoNascimento, tempoContribuicao
   cadeia matricula, nome
 
 
-  //Solicitando dados para o usuário.
+  //Solicitando dados para o usuÃ¡rio.
 
   escreva("Informe seu nome: ")
   leia(nome)
@@ -15,10 +15,10 @@ programa {
   escreva("Digite o ano do seu nascimento: ")
   leia(anoNascimento)
 
-  escreva("Digite o número da sua matrícula: ")
+  escreva("Digite o nÃºmero da sua matrÃ­cula: ")
   leia(matricula)
 
-  escreva("Informe o tempo de contribuição: ")
+  escreva("Informe o tempo de contribuiÃ§Ã£o: ")
   leia(tempoContribuicao)
 
 
@@ -35,13 +35,13 @@ programa {
   escreva("\nCom base nos dados recebidos do trabalhador " )
   escreva("\nNome do trabalhador: ", nome)
   escreva("\nIdade: ", idade, " anos")
-  escreva("\nNúmero da matrícula: ", matricula)
-  escreva("\nTempo de contribuição: ", tempoContribuicao, " anos de contribuição\n")
+  escreva("\nNÃºmero da matrÃ­cula: ", matricula)
+  escreva("\nTempo de contribuiÃ§Ã£o: ", tempoContribuicao, " anos de contribuiÃ§Ã£o\n")
 
   se (idade >= 65 ou tempoContribuicao >= 30){
     escreva ("Aprovado! Tem direito a se aposentar!")
   } senao{ 
-    escreva ("Rejeitado! Não tem direito a aposentadoria.")
+    escreva ("Rejeitado! NÃ£o tem direito a aposentadoria.")
   }
 
 
