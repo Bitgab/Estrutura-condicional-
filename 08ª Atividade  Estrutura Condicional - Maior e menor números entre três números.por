@@ -1,21 +1,21 @@
 programa {
   funcao inicio() {
 
-  //Declaração de variáveis.
+  //DeclaraÃ§Ã£o de variÃ¡veis.
 
   real numeroUm, numeroDois, numeroTres
   real maiorNumero, menorNumero 
 
 
-  //Solicitando dados para o usuário.
+  //Solicitando dados para o usuÃ¡rio.
 
-  escreva("Digite o primeiro número: ")
+  escreva("Digite o primeiro nÃºmero: ")
   leia(numeroUm)
 
-  escreva("Digite o segundo número: ")
+  escreva("Digite o segundo nÃºmero: ")
   leia(numeroDois)
 
-  escreva("Digite o terceiro número: ")
+  escreva("Digite o terceiro nÃºmero: ")
   leia(numeroTres) 
 
   //Exibindo resultado.
@@ -42,9 +42,9 @@ programa {
   limpa()
 
   escreva(" === EXIBINDO RESULTADO === ")
-  escreva("\nEsses foram os números selecionados: ", numeroUm, " ", numeroDois, " ", "e", " " , numeroTres)
-  escreva("\nO maior número: ", maiorNumero)
-  escreva("\nO menor número: ", menorNumero)
+  escreva("\nEsses foram os nÃºmeros selecionados: ", numeroUm, " ", numeroDois, " ", "e", " " , numeroTres)
+  escreva("\nO maior nÃºmero: ", maiorNumero)
+  escreva("\nO menor nÃºmero: ", menorNumero)
 
 
   }
