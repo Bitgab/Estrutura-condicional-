@@ -1,26 +1,26 @@
 programa {
   funcao inicio() {
     
-    //DeclaraÁ„o de vari·veis.
+    //Declara√ß√£o de vari√°veis.
 
     real numeroUm, numeroDois
     caracter op
     real resultado
 
 
-    //Solicitando dado ao usu·rio.
+    //Solicitando dado ao usu√°rio.
 
-    escreva("Digite um n˙mero: ")
+    escreva("Digite um n√∫mero: ")
     leia(numeroUm)
 
-    escreva("Escolha uma operaÁ„o b·sica: ")
+    escreva("Escolha uma opera√ß√£o b√°sica: ")
     leia(op)
 
-    escreva("Escolha um n˙mero: ")
+    escreva("Escolha um n√∫mero: ")
     leia(numeroDois)
 
 
-    //Calculando as vari·veis.
+    //Calculando as vari√°veis.
 
 
 
@@ -44,7 +44,7 @@ programa {
     pare
 
     caso contrario: 
-    escreva("A operaÁ„o digitada È inv·lida!")
+    escreva("A opera√ß√£o digitada √© inv√°lida!")
 
     }
     escreva("Resultado: ", resultado)
