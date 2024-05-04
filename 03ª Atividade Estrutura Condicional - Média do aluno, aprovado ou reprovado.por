@@ -1,7 +1,7 @@
 programa {
   inclua biblioteca Matematica --> mat
   funcao inicio() {
-  //Declaração de variáveis.
+  //DeclaraÃ§Ã£o de variÃ¡veis.
 
   cadeia nome
   inteiro idade
@@ -10,7 +10,7 @@ programa {
   real arredonda
 
 
-  //Solicitação de dados para o usuário.
+  //SolicitaÃ§Ã£o de dados para o usuÃ¡rio.
 
   escreva("Digite seu nome: ")
   leia(nome)
@@ -18,17 +18,17 @@ programa {
   escreva("Digite sua idade: ")
   leia(idade)
 
-  escreva("Digite sua nota da 1° Unidade: ")
+  escreva("Digite sua nota da 1Â° Unidade: ")
   leia(primeiraNota)
 
-  escreva("Digite sua nota da 2° Unidade: ")
+  escreva("Digite sua nota da 2Â° Unidade: ")
   leia(segundaNota)
 
-  escreva("Digite sua nota da 3° Unidade: ")
+  escreva("Digite sua nota da 3Â° Unidade: ")
   leia(terceiraNota)
 
 
-  //Calculando média do aluno.
+  //Calculando mÃ©dia do aluno.
   media=(primeiraNota+segundaNota+terceiraNota)/3
   arredonda = mat.arredondar(media,2)
 
@@ -40,7 +40,7 @@ programa {
   //Exibindo resultado.
 
  se (media > 7){
-  escreva("Parabéns, aluno aprovado!")
+  escreva("ParabÃ©ns, aluno aprovado!")
  } se (media < 7){
   escreva("Infelizmente, aluno reprovado.")
  }
